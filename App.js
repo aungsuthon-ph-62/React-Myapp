@@ -13,21 +13,21 @@
    return (
     <View style={{ flex:1, flexDirection: "column" }}>
       <View style={{ flex:1, flexDirection: "row" }}>
-        <View style={{flex:1, backgroundColor: "red", flexDirection:"row",justifyContent:"flex-start"}}>
-          <View style={{width: 50, height:50, backgroundColor: "black" }}></View>
+        <View style={{flex:1, backgroundColor: "#E8F0F2", flexDirection:"row",justifyContent:"flex-start"}}>
+          <View style={{width: 50, height:50, backgroundColor: "#FFE194" }}></View>
         </View>
-        <View style={{flex:1, backgroundColor: "green", flexDirection:"row" ,justifyContent:"flex-end"}}>
-          <View style={{width: 50, height:50, backgroundColor: "black"}}></View>
+        <View style={{flex:1, backgroundColor: "#A2DBFA", flexDirection:"row" ,justifyContent:"flex-end"}}>
+          <View style={{width: 50, height:50, backgroundColor: "#FFE194"}}></View>
         </View>
       </View>
 
       <View style={{ flex:1, flexDirection: "row" }}>
-        <View style={{flex:1, backgroundColor: "purple", flexDirection:"column-reverse",justifyContent:"flex-start"}}>
-          <View style={{width: 50, height:50, backgroundColor: "black"}}></View>
+        <View style={{flex:1, backgroundColor: "#39A2DB", flexDirection:"column-reverse",justifyContent:"flex-start"}}>
+          <View style={{width: 50, height:50, backgroundColor: "#FFE194"}}></View>
         </View>
-        <View style={{flex:1, backgroundColor: "blue", flexDirection:"column-reverse",justifyContent:"flex-start"}}>
-          <View style={{ backgroundColor: "blue", flexDirection:"row",justifyContent:"flex-end"}}>
-            <View style={{width: 50, height:50, backgroundColor: "black"}}></View>
+        <View style={{flex:1, backgroundColor: "#053742", flexDirection:"column-reverse",justifyContent:"flex-start"}}>
+          <View style={{ backgroundColor: "#053742", flexDirection:"row",justifyContent:"flex-end"}}>
+            <View style={{width: 50, height:50, backgroundColor: "#FFE194"}}></View>
           </View>
         </View>
       </View>
